@@ -1,12 +1,16 @@
-import express, { Request, Response } from 'express';
+import express, { Application, Request, Response } from 'express';
+import { ProfileType, PlayerType } from '../types';
+const cors = require('cors');
 
 const PORT = 5000;
 
-const app = express();
 
-app.get('/player/:id', (req: Request, res: Response) => {
+const app: Application = express();
+app.use(cors());
+
+app.get('/player/:id', (req: Request, res: Response): void => {
   try {
-    const player = require(`./data/players/${req.params.id}.json`);
+    const player: PlayerType = require(`./data/players/${req.params.id}.json`);
     res.json(player);
   }
   catch {
@@ -14,9 +18,9 @@ app.get('/player/:id', (req: Request, res: Response) => {
   }
 });
 
-app.get('/profile/:id', (req: Request, res: Response) => {
+app.get('/profile/:id', (req: Request, res: Response): void => {
   try {
-    const profile = require(`./data/profile/${req.params.id}.json`);
+    const profile: ProfileType = require(`./data/profile/${req.params.id}`);
     res.json(profile);
   }
   catch {
