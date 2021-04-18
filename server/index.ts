@@ -1,5 +1,5 @@
 import express, { Application, Request, Response } from 'express';
-import { ProfileType, PlayerType } from '../types';
+import { ProfileType, PlayerType } from '../frontend/src/types';
 const cors = require('cors');
 
 const PORT = 5000;
