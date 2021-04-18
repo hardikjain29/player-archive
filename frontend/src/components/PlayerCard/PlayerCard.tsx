@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProfileType } from '../../types';
+import { ProfileType } from '../../../../types';
 import './playerCard.css';
 
 interface Props {

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import SearchBox from './components/SearchBox/SearchBox';
 import EmptyState from './components/EmptyState/EmptyState';
 import PlayerCard from './components/PlayerCard/PlayerCard';
-import { PlayerType, ProfileType } from './types';
+import { PlayerType, ProfileType } from '../../types';
 import './App.css';
 
 const App: React.FC = () => {
