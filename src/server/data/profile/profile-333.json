@@ -1,0 +1,43 @@
+{
+    "id": "giorgio",
+    "profile": {
+      "age": "33",
+      "role": "centre-back",
+      "team": "Juventus",
+      "picture": "https://dummyimage.com/170x170/eead47/000000&text=Giorgio"
+    },
+    "stats": {
+      "blocks" : "6",
+      "totalTackles" : "11",
+      "interceptions" : "50",
+      "tacklesWon" : "30",
+      "yellowCards" : "41",
+      "passingAccuracy" : "70.2",
+      "clearances" : "99",
+      "totalCrosses" : "15",
+      "aerialDuelsWon" : "40",
+      "minutesPlayed" : "4800",
+      "minutesPerGoal" : "358.0",
+      "headedGoals" : "1",
+      "foulsConceded" : "55",
+      "totalPasses" : "8562",
+      "totalShots" : "11",
+      "otherGoals" : "1",
+      "duelsWon" : "301",
+      "shotsOnTarget" : "5",
+      "leftFootGoals" : "0",
+      "rightFootGoals" : "3",
+      "starts" : "15",
+      "goalsFromInsideBox" : "2",
+      "substitutionOff" : "70",
+      "foulsWon" : "90",
+      "assists" : "50",
+      "gamesPlayed" : "55",
+      "substitutionOn" : "6",
+      "redCards" : "9",
+      "goals" : "3",
+      "successfulCrosses" : "10",
+      "goalsFromOutsideBox" : "1"
+    }
+  }
+  
