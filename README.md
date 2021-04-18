@@ -5,7 +5,7 @@ Watch it in action: https://www.loom.com/share/6d0f4a624e6e45a8b4d767811b66f0da
 
 Player Archive is made with React.js, Node.js and Typescript
 
-Folder structure:
+# Folder structure:
   
   Frontend
 
@@ -27,11 +27,11 @@ The types are defined in a file called types.ts and used across in frontend and 
 The frontend is a react app with components which has a search box and displays the player profile when it is active.
 
 Webpack is used to build both the frontend and server individually for development and production.
-## Scripts
+# Scripts
 
 Development
 
-# Frontend:
+## Frontend:
 
 cd frontend
 
@@ -41,7 +41,7 @@ npm start
 
 Go to http://localhost:3000
 
-# Node.js Server
+## Node.js Server
 
 cd server
 
@@ -52,7 +52,7 @@ npm run dev
 Go to http://localhost:5000
 
 
-# Production
+## Production
 
 
 Frontend:
