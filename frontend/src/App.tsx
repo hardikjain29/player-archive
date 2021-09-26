@@ -106,7 +106,7 @@ import './App.css'
                   const avgCost = getAvgPrice(coin);
                   const spent = dataAnalytics[coin]?.totalPurchaseAmount;
                   const current = tickers[coin]?.last * dataAnalytics[coin]?.totalAmount;
-                  const pl = current - spent;
+                  const pl = Math.round(current - spent);
                   dataAnalytics = {
                     ...dataAnalytics,
                     [coin]: {
@@ -132,7 +132,7 @@ import './App.css'
                   <td></td>
                   <td>{Object.values(dataAnalytics).reduce((acc, cur) => acc + cur.totalPurchaseAmount, 0)}</td>
                   <td></td>
-                  <td className={totalPL > 0 ? 'lower' : 'upper'}>{totalPL}</td>
+                  <td className={totalPL > 0 ? 'lower' : 'upper'}>{Math.round(totalPL)}</td>
                 </tr>
             </tbody>
           </table>
